@@ -9,6 +9,7 @@
 @media (max-width: 600px) {
     body {
         font-size: 14px;
+        background-color: #22282a;
     }
 
     .home, .about {
@@ -25,12 +26,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #22282a;
 
 }
 html{
     font-family: "Josefin sans", sans-serif;
     font-size: 16px;
     color: #ffffff;
+    background-color: #22282a;
     
 }
 .home { 
@@ -117,7 +120,7 @@ h3{
 h4{
     font-size: 1.25rem;
     letter-spacing: 0.12rem;
-    color: #2b06fc ;
+    color: aliceblue ;
 }
 
 h5{
