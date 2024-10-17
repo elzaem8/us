@@ -6,9 +6,18 @@
     --bgcolor-2:#22282a;
     --padding: 81;
 }
-@media (max-width: 600px){
-    body{
+@media (max-width: 600px) {
+    body {
         font-size: 14px;
+    }
+
+    .home, .about {
+        flex-direction: column; /* لتناسب الشاشات الصغيرة */
+    }
+
+    .home .container-images,
+    .about .container-images {
+        width: 100%; /* جعلها تأخذ عرض الشاشة بالكامل */
     }
 }
 
